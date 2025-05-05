@@ -65,10 +65,10 @@
             //                             | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
-&none  &studio_unlock  &kp W  &kp E        &kp R            &kp T        &kp Y  &kp U        &kp I           &kp O        &studio_unlock  &none
-&none  &kp A           &kp S  &kp D        &kp F            &kp G        &kp H  &kp J        &kp K           &kp L        &kp SEMI        &none
-&none  &kp Z           &kp X  &kp C        &kp V            &kp B        &kp N  &kp M        &kp COMMA       &kp DOT      &kp FSLH        &none
-                              &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET         &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
+&none  &studio_unlock  &kp W  &kp E        &kp R            &kp T  &kp Y  &kp U        &kp I           &kp O        &studio_unlock  &none
+&none  &kp A           &kp S  &kp D        &kp F            &kp G  &kp H  &kp J        &kp K           &kp L        &kp SEMI        &none
+&none  &kp Z           &kp X  &kp C        &kp V            &kp B  &kp N  &kp M        &kp COMMA       &kp DOT      &kp FSLH        &none
+                              &lt RSE TAB  &mt LSHFT SPACE  &none         &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
             >;
         };
 
